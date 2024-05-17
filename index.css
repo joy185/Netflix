@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    
+}
+.first-container{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url(/img/movie-poster-background-p5qblffj7cvswl5g.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.first_logo img{
+    width: 120px;
+}
+.sign_in{
+    background-color: red;
+    color: white;
+    padding: 8px 15px 10px 15px;
+    border-style: none;
+    border-radius: 5px
+}
+.first_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+}
+.words{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.first_content h1{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    
+}
+.second_content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px ;
+}
+.third_content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.click{
+    background-color: red;
+    color: white;
+    padding: 20px 30px;
+    border-style: none;
+    font-size: large;
+}
+.box_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    padding: 20px 150px;
+    color: black;
+    background-color: rgba(62, 62, 62, 0.5);
+    border-style: none;
+    text-align: center;
+}
+.place_holder{
+    padding-left: 10px;
+    color: black;
+}
+.movies{
+    background-color: black;
+    color: rgb(177, 177, 177, 177);
+
+}
+.movie_intro_text{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 200px;
+    color: white;
+    font-size: 20px;
+}
+.movie_intro_text1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 200px;
+    color: white;
+    font-size: 20px;
+}
+.ball{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 100px;
+}
+.red_text{
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.movie_section1_Avail{
+    font: 20px;
+    color: white;
+    font-size: 20px;
+}
+.movie_section1{
+    height: 100vh;
+    border-top: 10px solid rgb(52, 51, 51);
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+
+}
+.movie_bg1{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(71,30,30,0.7)) , url(/img/joker.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 20px;
+}
+.movie_bg2{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(71,30,30,0.7)) , url(/img/assassin-s-creed-assassin-s-creed-valhalla-viking-warrior-hd-wallpaper-109a80c5de849d288d4ea9195b395f3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 20px;
+}
+.movie_bg3{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(71,30,30,0.7)) , url(/img/spartans.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.movie_section1_img{
+    flex: 1;
+}
+.movie_section1_text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    margin-bottom: 200px;
+}
+
+.movie_basic_text{
+    line-height: 20px;
+    color: white;
+    font-size: 15px;
+}
+.click_btn{
+    background-color: red;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+    color: white;
+}
+.movie_section1_1{
+    height: 170vh;
+    border-top: 10px solid rgb(52, 51, 51);
+    align-items: center;
+    padding: 10px 80px;
+
+}
+.movies_1{
+    background-color: black;
+    color: rgb(177, 177, 177, 177);
+    
+    
+}
+.fourth_content{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 1000px;
+    height: 40vh;
+    list-style-type: none;
+    
+}
+.links_text li{
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration: none;
+    padding: 14px 25px;
+    margin: 50px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    width: 80%;
+   
+}
+.btn{
+ font-weight: lighter;
+ 
+}
+li{
+    display: flex;
+}
+.viking{
+    display: flex;
+    justify-content: flex-end;
+}
+.main_footer{
+    border-top: 10px solid rgb(52, 51, 51);
+    padding: 40px 80px;
+    background-color: black;
+    height: 50vh;
+
+}
+.row_one{
+    color: white;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.packet{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+/* .first_bar input{
+    padding: 10px 0px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+} */
+/* .language{
+    color: white;
+} */
+.row_two a{
+    color: white;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.row_three a{
+    color: white;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.row_four a{
+    color: white;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.first_bar a {
+    color: white;
+}
+.bar{
+    border: 1px solid white;
+    padding: 8px 40px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+ion-icon{
+    color: white;
+}
+.bar_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+/* Responsiveness */
+@media(max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .first_container{
+        height: auto;
+    }
+    .first_content h1{
+        font-size: 28px;
+    }
+    .first_content h3{
+        font-size: 18px;
+    }
+    input{
+        width: 40%;
+        font-size: 10px;
+    }
+    .click{
+        font-size: 10px;
+    }
+    .box_section{
+        gap: 5px;
+    }
+    .movie_section1{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 10px;
+        gap: 0;
+    }
+    .movie_bg1,
+    .movie_bg2,
+    .movie_bg3{
+        height: 400px;
+    }
+    .movie_section1_text{
+        margin-bottom: 50px;
+        line-height: 1px;
+        
+    }
+    .packet{
+        padding: 10px 16px;
+        gap: 90px;
+    }
+    .movie_intro_text{
+        padding-top: 50px;
+    }
+    .movie_intro_text1{
+        padding-top: 10px;
+    }
+    .words{
+        padding-top: 100px;
+    }
+    .main_footer{
+        height: 30vh;
+    }
+}
+@media(max-width:425px){
+    body{
+        max-width: fit-content;
+    }
+    .box_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie_bg1,
+    .movie_bg2,
+    .movie_bg3{
+        width: 100vw;
+        border-radius: 0;
+    }
+    .red_text{
+        font-size: 40px;
+    }
+    .main_footer{
+        height: auto;
+        padding-left: 10px;
+        
+    }
+    .packet{
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+    
+}
+    .bar{
+        width: 80%;
+    }
+}
